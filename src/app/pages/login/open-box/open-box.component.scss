@@ -1,0 +1,37 @@
+@import '../../../shared/layout/mixins/mixin.scss';
+@import '../../../shared/layout/pattern/color-palette.scss';
+
+.openBox{
+  @include box;
+
+  &__row{
+    @include center;
+  }
+
+  &__login{
+    @include form;
+  }
+
+  &__login:hover{
+    box-shadow: 0 0 1.3em rgba(0,0,0,0.2);
+  }
+
+  &__btn{
+    @include btn_form;
+  }
+
+}
+
+h1{
+  @include title_form;
+}
+
+.cadastrar{
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.cadastrar:hover{
+  color: #0B5ED7;
+}

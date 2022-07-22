@@ -1,0 +1,29 @@
+@import '../../shared/layout/pattern/reset.scss';
+@import '../../shared/layout/mixins/mixin.scss';
+@import '../../shared/layout/pattern/color-palette.scss';
+
+
+.registerPlate{
+  @include box;
+
+  &__row{
+    @include center;
+  }
+
+  &__register{
+    @include form;
+  }
+
+  &__register:hover{
+    box-shadow: 0 0 1.3em rgba(0,0,0,0.2);
+  }
+
+  &__btn{
+    @include btn_form;
+  }
+}
+
+h1{
+  @include title_form;
+}
+

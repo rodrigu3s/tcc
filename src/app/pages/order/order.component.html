@@ -1,0 +1,123 @@
+<main class="order container-fluid">
+  <div class="row order__row">
+      <div class="col-md-3 order__col" id="favorite-dish1">
+          <div class="col-12 order__cards">
+
+            <div class="card col-4 col-md-6 col-lg-6 col-xl-4" *ngFor="let generico of ladoEsquerdo" >
+              <p class="title pb-3">{{generico.name}}</p>
+              <p class="price"><strong>{{generico.price}}</strong></p>
+            </div>
+          </div>
+
+      </div>
+
+
+      <div class="col-md-6 order__col" id="order-panel">
+          <div class="order__panel" style="border: solid 2px gold;">
+              <div class="order__detail">
+                  <p>NOME DO PRATO --------------- VALOR</p>
+                  <ul>
+                      <li>ingredient 01</li>
+                      <li>ingredient 02</li>
+                      <li>ingredient 03</li>
+                  </ul>
+              </div>
+              <div class="order__detail">
+                  <p>NOME DO PRATO --------------- VALOR</p>
+                  <ul style="margin-left: 20px">
+                      <li>ingredient 01</li>
+                      <li>ingredient 02</li>
+                      <li>ingredient 03</li>
+                  </ul>
+              </div>
+              <div class="order__detail">
+                  <p>NOME DO PRATO --------------- VALOR</p>
+                  <ul style="margin-left: 20px">
+                      <li>ingredient 01</li>
+                      <li>ingredient 02</li>
+                      <li>ingredient 03</li>
+                  </ul>
+              </div>
+              <div class="order__detail">
+                  <p>NOME DO PRATO --------------- VALOR</p>
+                  <ul style="margin-left: 20px">
+                      <li>ingredient 01</li>
+                      <li>ingredient 02</li>
+                      <li>ingredient 03</li>
+                  </ul>
+              </div>
+              <div class="order__detail">
+                  <p>NOME DO PRATO --------------- VALOR</p>
+                  <ul style="margin-left: 20px">
+                      <li>ingredient 01</li>
+                      <li>ingredient 02</li>
+                      <li>ingredient 03</li>
+                  </ul>
+              </div>
+              <div class="order__detail">
+                  <p>NOME DO PRATO --------------- VALOR</p>
+                  <ul style="margin-left: 20px">
+                      <li>ingredient 01</li>
+                      <li>ingredient 02</li>
+                      <li>ingredient 03</li>
+                  </ul>
+              </div>
+              <div class="order__detail">
+                  <p>NOME DO PRATO --------------- VALOR</p>
+                  <ul style="margin-left: 20px">
+                      <li>ingredient 01</li>
+                      <li>ingredient 02</li>
+                      <li>ingredient 03</li>
+                  </ul>
+              </div>
+              <div class="order__detail">
+                  <p>NOME DO PRATO --------------- VALOR</p>
+                  <ul style="margin-left: 20px">
+                      <li>ingredient 01</li>
+                      <li>ingredient 02</li>
+                      <li>ingredient 03</li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="order__detail--btn">
+              <button class="order__btn">PAGAR</button>
+              <button class="order__btn">MODIFICAR</button>
+          </div>
+      </div>
+
+
+      <div class="col-md-3 order__col" id="favorite-dish2">
+          <div class="col-12 order__cards">
+
+            <div class="card col-4 col-md-6 col-lg-6 col-xl-4" *ngFor="let generico of ladoDireito" >
+              <p class="title pb-3">{{generico.name}}</p>
+              <p class="price"><strong>{{generico.price}}</strong></p>
+            </div>
+
+
+              <!-- <div class="card col-4 col-md-6 col-lg-6 col-xl-4">
+                  <p class="title pb-3">NOME DO PRATO</p>
+                  <p class="price"><strong>R$ 300,00</strong></p>
+              </div>
+              <div class="card col-4 col-md-6 col-lg-6 col-xl-4">
+                  <p class="title pb-3">NOME DO PRATO</p>
+                  <p class="price"><strong>R$ 300,00</strong></p>
+              </div>
+              <div class="card col-4 col-md-6 col-lg-6 col-xl-4">
+                  <p class="title pb-3">NOME DO PRATO</p>
+                  <p class="price"><strong>R$ 300,00</strong></p>
+              </div>
+              <div class="card col-4 col-md-6 col-lg-6 col-xl-4">
+                  <p class="title pb-3">NOME DO PRATO</p>
+                  <p class="price"><strong>R$ 300,00</strong></p>
+              </div>
+              <div class="card col-4 col-md-6 col-lg-6 col-xl-4">
+                  <p class="title pb-3">NOME DO PRATO</p>
+                  <p class="price"><strong>R$ 300,00</strong></p>
+              </div> -->
+          </div>
+      </div>
+  </div>
+
+</main>

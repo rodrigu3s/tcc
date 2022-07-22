@@ -1,0 +1,36 @@
+@import '../../layout/mixins/mixin.scss';
+@import '../../layout/pattern/color-palette.scss';
+
+.menu{
+  @include wrap;
+  font-family: 'Roboto';
+  font-weight: 700;
+
+  &__item{
+    @include center;
+    padding: 30px 10px;
+    cursor: pointer;
+    border: solid 0.3px $grayDarkColor;
+    background-color: $terciarioColor;
+    color: $whiteColor;
+  }
+
+  &__secondary--item{
+    @include center;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: solid 0.3px $grayDarkColor;
+    background-color: $terciarioColor;
+    color: $whiteColor;
+  }
+}
+
+@media(max-width:768px){
+
+  .menu{
+    &__secondary--item{
+      padding: 30px 10px;
+    }
+  }
+
+}

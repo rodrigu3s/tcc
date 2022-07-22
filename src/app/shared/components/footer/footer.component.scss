@@ -1,0 +1,22 @@
+@import '../../layout/mixins/mixin.scss';
+@import '../../layout/pattern/color-palette.scss';
+@import '../../layout/pattern/reset.scss';
+
+footer{
+  @include between;
+  background-color: $blackColor;
+  color: $whiteColor;
+  width: 100vw;
+  padding: 5px 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+@media(max-width:768px){
+
+  footer{
+    position: relative;
+  }
+}

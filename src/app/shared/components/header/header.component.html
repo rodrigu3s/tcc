@@ -1,0 +1,35 @@
+<header>
+  <div class="menu">
+      <!-- MENU PRINCIPAL  -->
+      <div class="menu__item col-6 col-sm-6 col-md-3" routerLink="/login">
+          <h5>ABRIR CAIXA</h5>
+      </div>
+      <div class="menu__item col-6 col-sm-6 col-md-3">
+          <h5>FECHAR CAIXA</h5>
+      </div>
+      <div class="menu__item col-6 col-sm-6 col-md-3">
+          <h5>RELATÓRIOS</h5>
+      </div>
+      <div class="menu__item col-6 col-sm-6 col-md-3" routerLink="/register">
+          <h5>CADASTRO</h5>
+      </div>
+  </div>
+
+
+  <div class="menu">
+      <!-- MENU SECUNDARIO  -->
+      <div class="menu__secondary--item col-6 col-md-3"  (click)="getPratos('combo')" routerLink="/order">
+          <h5>COMBOS</h5>
+      </div>
+      <div class="menu__secondary--item col-6 col-md-3"  (click)="getPratos('individual')">
+          <h5>INDIVIDUAL</h5>
+      </div>
+      <div class="menu__secondary--item col-6 col-md-3">
+          <h5>SOBREMESA</h5>
+      </div>
+      <div class="menu__secondary--item col-6 col-md-3">
+          <h5>BEBIDAS</h5>
+      </div>
+  </div>
+
+</header>
